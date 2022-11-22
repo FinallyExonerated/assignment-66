@@ -1,0 +1,17 @@
+body {
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    background-color: darkgrey;
+    color: white;
+    font-family: 'Open Sans', Arial, sans-serif;
+    font-weight: 300;
+    font-size: 22px;
+}
+.weather_forecast {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+(https://openweathermap.org/api/one-call-api)

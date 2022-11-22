@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Dashboard</title>
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+    <div class="weather">
+        <input type="search" class="weather_search" placeholder="search city">
+        <div class="weather_today">
+            <div class="weather_details">
+                <h2 class="weather_city">Atlanta</h2>
+                <p class="weather_day">Day</p>
+                <div class="weather_current">
+                    <p class="weather_indicator weather_indicator--humidity"><span class="value">50</span>%</p>
+                    <p class="weather_indicator weather_indicator--wind"><span class="value">West, 5</span>m/s</p>
+                    <p class="weather_indicator weather_indicator--pressure"><span class="value">1050</span>hPa</p>
+                </div>
+            </div>
+            <div class="weather_temperature"></div>
+
+        </div>
+        <div class="weather_forcast"></div>
+            <article class="weather_forecast">
+                <h3 class="weather_forecast_day">Monday</h3>
+                <p class="weather_forecast_temp"><span class="value">+65</span></p>
+            </article>
+            <article class="weather_forecast">
+                <h3 class="weather_forecast_day">Tuesday</h3>
+                <p class="weather_forecast_temp"><span class="value">+70</span></p>
+            </article>
+            <article class="weather_forecast">
+                <h3 class="weather_forecast_day">Wednesday</h3>
+                <p class="weather_forecast_temp"><span class="value">+75</span></p>
+            </article>
+            <article class="weather_forecast">
+                <h3 class="weather_forecast_day">Thursday</h3>
+                <p class="weather_forecast_temp"><span class="value">+65</span></p>
+            </article>
+            <article class="weather_forecast">
+                <h3 class="weather_forecast_day">Friday</h3>
+                <p class="weather_forecast_temp"><span class="value">+55</span></p>
+            </article>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
